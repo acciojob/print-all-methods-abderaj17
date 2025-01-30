@@ -3,7 +3,7 @@ function allMethods() {
   //write your code here
 	let properties = Object.getOwnPropertyNames(Math);
 
-	return properties;
-}
+	return properties.join(', ');
+} 
 
-alert(allMethods());
+alert(allMethods()); 
